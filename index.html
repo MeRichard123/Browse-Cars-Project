@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Car Browser</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./img/logo.png" alt="" />
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="#">contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img
+        class="left"
+        src="./img/automobile-automotive-bumper-1573424.jpg"
+        alt=""
+      />
+      <img
+        class="right"
+        src="./img/automobile-automotive-car-2693924.jpg"
+        alt=""
+      />
+      <div class="cta">
+        <p><a class="cta-link" href="#">Browse Cars</a></p>
+      </div>
+      <section class="intro">
+        <h1>Introduction</h1>
+        <div class="about">
+          Welcome to the Car Gallery. Here you can browse many beautiful images
+          of cars and other vehicles. Sit back relax and enjoy browsing.
+        </div>
+      </section>
+      <section class="slider">
+        <div class="left-arrow" onclick="prev()">
+          <i class="fas fa-angle-left"></i>
+        </div>
+        <img class="image" src="./img/lambo.png" alt="" />
+        <div class="right-arrow" onclick="next()">
+          <i class="fas fa-angle-right"></i>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/7f8e2e2f5c.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
+  </body>
+</html>
