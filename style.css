@@ -145,6 +145,7 @@ main img {
   background-color: #797979;
   align-self: center;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .left-arrow:hover,
