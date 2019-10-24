@@ -134,6 +134,7 @@ main img {
 }
 .slider img {
   object-fit: contain;
+  transition: transform 0.5s ease-in-out, opacity 0.5s linear;
 }
 .left-arrow,
 .right-arrow {
