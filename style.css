@@ -51,7 +51,7 @@ nav {
 
 main img {
   width: 50%;
-  height: 720px;
+  height: 100vh;
   left: 0px;
   top: 0px;
 }
@@ -113,6 +113,7 @@ main img {
   left: 50%;
   transform: translateX(-40%);
   z-index: -1;
+  margin-bottom: 1.5rem;
 }
 .about {
   width: 90%;
@@ -138,7 +139,7 @@ main img {
 }
 .left-arrow,
 .right-arrow {
-  height: 400px;
+  min-height: 300px;
   width: 30px;
   align-items: center;
   display: flex;
