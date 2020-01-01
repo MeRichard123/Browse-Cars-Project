@@ -66,8 +66,8 @@ main img {
 .cta {
   position: absolute;
   display: flex;
-  width: 336px;
-  height: 80px;
+  width: 25vw;
+  height: 15vh;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -84,7 +84,7 @@ main img {
   height: 60px;
   font-style: normal;
   font-weight: normal;
-  font-size: 40px;
+  font-size: calc(1vw + 1rem);
   line-height: 60px;
 }
 .cta-link {
@@ -202,4 +202,10 @@ main img {
 }
 #footer a {
   color: #fff;
+}
+
+@media screen and (min-width: 2992px) {
+  html {
+    font-size: 80%;
+  }
 }
